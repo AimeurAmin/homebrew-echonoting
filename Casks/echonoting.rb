@@ -1,15 +1,15 @@
 cask "echonoting" do
-  version "0.3.1"
+  version "0.3.2"
   arch arm: "aarch64", intel: "x64"
 
   on_arm do
-    sha256 "312570ae115f1b4a6c8bd2107f8c0d11cd7d26ace90ee79e195964b6ca9057b3"
-    url "https://github.com/AimeurAmin/echonoting-releases/releases/download/desktop-v#{version}/EchoNoting_0.3.1_aarch64.dmg"
+    sha256 "9d8646bee5c11c6c635c58301437fe9c8f6d1ffa43e5ebf93b52b37a195eae16"
+    url "https://github.com/AimeurAmin/echonoting-releases/releases/download/desktop-v#{version}/EchoNoting_0.3.2_aarch64.dmg"
   end
 
   on_intel do
-    sha256 "72ef2e44ed225ddb0210036abcc4ba39ca3da2b4d85c083aac57a39747118011"
-    url "https://github.com/AimeurAmin/echonoting-releases/releases/download/desktop-v#{version}/EchoNoting_0.3.1_x64.dmg"
+    sha256 "f8f2fba6799c55c6d41f8446ad26af325bb809e1402670a42994ffd7d9462118"
+    url "https://github.com/AimeurAmin/echonoting-releases/releases/download/desktop-v#{version}/EchoNoting_0.3.2_x64.dmg"
   end
 
   name "EchoNoting"
